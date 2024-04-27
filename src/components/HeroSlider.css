@@ -1,0 +1,30 @@
+.boundry{
+    object-fit: fill;
+    height: 500px;
+    width: auto;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+
+  .imgg{
+    height: 500px;
+    width: 2000px;
+  }
+
+
+@media screen and (max-width: 1000px){
+
+  .boundry{
+        object-fit: cover;
+        height: 200px;
+        width: auto;
+        border: 5px solid black;
+    }
+
+    .imgg{
+         height: 100%;;
+        width: 100%;;
+    }
+
+  }

@@ -1,0 +1,31 @@
+
+.boxsize{
+  margin-top: 400px;
+  width: 90%;
+    margin-left: 5%;
+
+}
+.card{
+  
+  border:none;
+}
+
+.user-content p{
+  margin-top:5px;
+  font-size:12px;
+}
+
+.hhh{
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.ratings i{
+  color:blue;
+}
+
+@media screen and (max-width: 1000px) {
+    .boxsize{
+      margin-top: 150px;
+    }
+}

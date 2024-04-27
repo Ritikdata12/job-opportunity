@@ -1,0 +1,76 @@
+/*****RECENT JOB SECTION RECENT JOB SECTION*****/
+.recent-job {
+	padding-bottom: 60px;
+  
+	margin-top: 100px;
+}
+
+.recent-job-heading {
+	text-align: center;
+	color: #343a40;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.recent-job-sub-heading {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.recent-job-list {
+	padding: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.job-title {
+	font-size: 20px;
+}
+
+.job-company {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.job-company i {
+	color: orange;
+	margin-left: 10px;
+}
+
+.job-skill {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.job-apply-button {
+	background: blue;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+.box-container{
+	display: flex;
+	justify-content: space-evenly;
+	width: 90%;
+	margin-left: 5%;
+}
+.apply{
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	.box-container{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.box-container{
+		display: block;
+	}
+	.recent-job-heading{
+		margin-top: 450px;
+	}
+}
